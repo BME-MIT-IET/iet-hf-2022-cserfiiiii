@@ -1,6 +1,6 @@
-##UI Manuális tesztelése
+## UI Manuális tesztelése
 
-##1. teszt: User input
+## 1. teszt: User input
 
 Az első manuális teszttel azt vizsgálom meg, hogy a program hogy kezeli a hibás user inputot.
 A kezdőképernyőn a Start gombra kattintva a játékosok számát kell megadnia a felhasználónak.
