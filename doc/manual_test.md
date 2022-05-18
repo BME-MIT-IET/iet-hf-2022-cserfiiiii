@@ -22,13 +22,26 @@ A második manuális teszt által azt vizsgálom meg, hogy a szövegek mennyire 
 - Játékosok számának megadása képernyő: Megfelelő.
 - Játék: 
 	- A Control panel alján lévő szövegeket nem találom eléggé kontrasztosnak a háttérrel. El lehet olvasni, de igényesebbé lehetne tenni ha félkövérré tennénk, vagy a hátteret változtatnánk meg. A képerenyőn megjelenő többi szöveget kellően kontrasztosnak ítélem.
-  ![image](https://user-images.githubusercontent.com/79630831/169168295-78385a77-c7a6-4be9-be77-4e38b8dc7317.png)
+	- ![image](https://user-images.githubusercontent.com/79630831/169168295-78385a77-c7a6-4be9-be77-4e38b8dc7317.png)
 	- A játék kezdeti állapotában a játékosok ugyanazon az aszteroidán helyezkednek el, így a játékosok nevei egymásra lógnak, nem teljesen kivehetőek, csak egy név olvasható el.
-	![image](https://user-images.githubusercontent.com/79630831/169168343-cbd7d0ff-d319-480a-b2b2-a13cc8520d6e.png)
+![image](https://user-images.githubusercontent.com/79630831/169168343-cbd7d0ff-d319-480a-b2b2-a13cc8520d6e.png)
 	- Az aszteroidák adatainak a leírásai is összecsúsznak, ha az aszteroidák túl közel helyezkednek el egymáshoz. Nehéz eldönteni, hogy melyik adat melyik aszteroidához tartozik.
-	![image](https://user-images.githubusercontent.com/79630831/169168486-d54e6f5b-2490-45e8-b8df-1d140c39397e.png)
+![image](https://user-images.githubusercontent.com/79630831/169168486-d54e6f5b-2490-45e8-b8df-1d140c39397e.png)
 - Vesztettél képernyő: Megfelel.
 - Nyertél képernyő: Megfelel.
+
+
+## 3. Teszt: Spelling
+
+A harmadik teszt célkitűzése a helyesírási hibák észrevétele. 
+- Főképernyő: Nincs helyesírási hiba.
+- Játékosok számának megadása képernyő: Nincs helyesírási hiba.
+- Játék : Nincs helyesírási hiba.
+- Vesztettél képernyő: Nincs helyesírási hiba.
+- Nyertél képernyő: Nincs helyesírási hiba.
+
+
+
 
 
 
