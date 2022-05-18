@@ -45,7 +45,7 @@ Javítás: Mentsük el új változóba.
 - Code Smell: Két ugyanolyan nevű változó van, az egyik az osztály tagváltozója, a másik egy tagfüggvényben van létrehozva feleslegesen.
 Javítás: Egyik változó törlése
 
-## Material.java
+### Material.java
 
 - Code Smell: Az egyik függvény csak egy nagybetűben tér el az egyik beépített függvénytől
 Javítás: Nevezzük át a függvényt.
