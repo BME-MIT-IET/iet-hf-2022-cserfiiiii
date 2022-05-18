@@ -41,6 +41,10 @@ Javítás: Egyik változó törlése
 - Code Smell: Az egyik függvény csak egy nagybetűben tér el az egyik beépített függvénytől
 Javítás: Nevezzük át a függvényt.
 
+# Space.java
+
+- Code Smell: Kódsorok vannak kikommentezve
+Javítás: Töröljük ki ezeket a sorokat.
 
 
 
