@@ -31,6 +31,11 @@ Javítás: Kitörölni ezeket
 Code Smell: Nem mentjük el változóba egy objektumon meghívottt függvény értékét.
 Javítás: Mentsük el új változóba.
 
+# GAsteroid.java
+
+Code Smell: Két ugyanolyan nevű változó van, az egyik az osztály tagváltozója, a másik egy tagfüggvényben van létrehozva feleslegesen.
+Javítás: Egyik változó törlése
+
 
 
 
