@@ -61,3 +61,15 @@ Az ötödik teszt a képek helyes megjelenítésére fókuszál.
 - Vesztettél képernyő: Csak a főképernyő szerepel képként.
 - Nyertél képernyő: Csak a főképernyő szerepel képként.
 
+
+## 6. Teszt: Functions
+
+A hatodik tesztben a funkciók működésének megfelelő megjelenését elemzem.
+- A játékosok mozgatása jól működik akkor is, ha van szomszédja az aszteroidának, és akkor is, ha nem. 
+- A fúrás funkció helyesen működik, akkor is, ha van kérge az aszteroidának, és akkor is, ha nincs.
+- A bányászás funkció helyesen működik, akár van nyersanyag az aszteroidában, akár nincs.
+- A nyersanyag visszahelyezése funkció is helyesen működik, akár lehetséges a visszahelyezés (van nyersanyag a telepesnél és nincs kérge az aszteroidának), és akkor is, ha nem (minden egyéb eset).
+- A robot építése funkció is helyesen működik, akár van elég nyersanyaga a telepesnek, akár nincs.
+- A kapu építése funkció is helyesen működik, akár van elég nyersanyaga a telepesnek, akár nincs.
+- A kapu elhelyezése funkció is helyesen működik, akár van kapuja a telepesnek, akár nincs.
+
