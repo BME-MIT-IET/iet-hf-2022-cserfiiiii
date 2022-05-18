@@ -46,17 +46,18 @@ A harmadik teszt célkitűzése a helyesírási hibák észrevétele.
 A negyedik tesztben a megjelenés konziszteniáját vizsgálom meg.
 - A fő háttér végigkíséri az egész játék folyamatát, megjelenik mindegyik képernyőn, így én úgy ítélem meg, hogy ezzel egységes külalakot teremtettek a fejlesztők.
 - A használt betűtípus egységes a játék alatt.
-- A Játék képernyőn a Controlpanel alatt megjelenő hátteret viszont túlságosan világisnak ítélem meg a sötét fő háttérhez képest.
+- A Játék képernyőn a Control panel alatt megjelenő hátteret viszont túlságosan világosnak ítélem meg a sötét fő háttérhez képest.
 - A gombok külalakja megegyezik a játékban, de a megjelenésén lehetne javítani.
-- Ha -1 játékossal indítjuk el a játékot (lásd a csatolt képet az 1. tesztnél), akkor inkonzisztens, hogy a játék elindul, illetve, hogy a Controlpanel tetején Settler1 jelenik meg. Ha viszont a Settler1 megjelenik, akkor ahhoz képest is logikálan, hogy a Controlpanel alján található mezők üresen jelennek meg.
+- Ha -1 játékossal indítjuk el a játékot (lásd a csatolt képet az 1. tesztnél), akkor inkonzisztens, hogy a játék elindul, illetve, hogy a Control panel tetején Settler1 jelenik meg. Ha viszont a Settler1 megjelenik, akkor ahhoz képest is logikálan, hogy a Control panel alján található mezők üresen jelennek meg.
 
 
+## 5. Teszt: Pictures
 
-
-
-
-
-
-
-	![image](https://user-images.githubusercontent.com/79630831/169168426-e68d032e-73c1-4ce9-a33e-2313931f0225.png)
+Az ötödik teszt a képek helyes megjelenítésére fókuszál.
+- Főképernyő: A fő háttér egy picit pixeles, a felbontásán lehetne javítani (ez az egész játékra vonatkozik, hiszen ez a fő háttér, de nem fejtem ki az összes képernyőnél).
+- Játékosok számának megadása képernyő: Csak a főképernyő szerepel képként.
+- Játék : A képeket megfelelőnek tartom. Viszont az aszteroidák véletlenszerű elhelyezésének következtében előfordul, hogy a Controlpanel kitakarja néhány aszteroida bizonyos részeit. Ez sokat elvesz a felhasználói élményből, illetve a külalak minőségéből. Az ufók illetve a telepesek kis ikonjai gyakran összecsúsznak és neház kivenni pontosan hány alak van egy aszteroidán.
+![image](https://user-images.githubusercontent.com/79630831/169168426-e68d032e-73c1-4ce9-a33e-2313931f0225.png)
+- Vesztettél képernyő: Csak a főképernyő szerepel képként.
+- Nyertél képernyő: Csak a főképernyő szerepel képként.
 
