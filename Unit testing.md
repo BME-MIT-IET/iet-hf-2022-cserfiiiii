@@ -1,7 +1,7 @@
-## Egységtesztek készítése
+# Egységtesztek készítése
 
 Az Asteroid és Settler osztályt egészítettem ki Unit tesztekkel. Ezek a különböző metódusok működésének helyességét ellenőrzik.
-# TestClassAsteroid
+## TestClassAsteroid
   * AsteroidDecreaseLayer() - csökken az aszteroida kérgének nagysága egyel
   * AsteroidAddCreature() - új Creature objektum ekrül az aszteroidára
   * AsteroidRemoveCreature() - egy Creature elmegy az aszteroidáról
@@ -11,7 +11,7 @@ Az Asteroid és Settler osztályt egészítettem ki Unit tesztekkel. Ezek a kül
   * AsteroidTransport() - egy telepes utazik az aszteroidára
   * AddNeighbour() - új szomszédja lesz aszteroidának
 
-# TestClassSettler:
+## TestClassSettler:
   * SettlerDrill() -  a telepes lefúr az aszteroida rétegébe, az csökken
   * SettlerMine() - a telepes kbányássza aza szteroidában lévő nyersanyagot, így nála lesz egy, míg az aszteroidában nem marad semmi
   * SettlerCreateRobot() - a telepes rendelkezik a megfelelő nyersanyagokkal rendelkezik, így tud készíteni egy robotot
