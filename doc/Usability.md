@@ -15,6 +15,7 @@ A képernyőket nem lehet átméretezni, van egy fix méret, amekkoraként megje
 Easy to Access: egy felhasználóbarát alklamzás könnyen elérhető kell legyen minden felhasználó számára, a külalak megnyerő és szemrevaló kell legyen, hogy a felhasználók érdeklődését felkeltse, mivel ha a GUI nem szép, akkor a felhasználó kevesebb valószínűséggel fogja hosszú távon használni az alkalmazást.
 
 Az alábbi képen látszik, hogy az egyes karakterek egymásra vannak csúszva, nem szépen kivehető az hogy hány van belőlük, mit ír fölöttük, ez zavaró lehet a felhasználó számára, mivel nem láthatja pontosan, hogy mi történik a játékban.
+
 ![image](https://user-images.githubusercontent.com/79679983/169163365-ee25a2be-98cf-4f05-a8e3-79bacc321b41.png)
 
 Az alábbi képen látszik, hogy egymásra vannak csúszva az egyes kiírások, ez is megnehezíti a felhasználónak az alkalmazás helyes használatát.
