@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.Random;
 
 public class Main  implements ActionListener {
-	private static HashMap<String, Object> hash = new HashMap();
+	private static HashMap<String, Object> hash = new HashMap<String, Object>();
 	private static View view;
 	private static Main INSTANCE;
 	private static Random rnd = new Random();
