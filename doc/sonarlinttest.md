@@ -5,7 +5,7 @@ Az alkalmazás osztályait vizsgáltam meg SonarLint segítségével, a Code Sme
 Minor code smellek:
 A kód egészében nem a megfelelő java által előírt szabványos szintaktikát használjuk, miszerint decreaseLayer() lenne egy függvény neve, nem DecreaseLayer()
 
-A dokumentálás további részében a kritikus code smelleket említem és ezekre javaslok javításokat.
+A dokumentálás további részében a kritikus code smelleket említem és ezekre javaslok javításokat. Végig néztem az összes osztályt, de nem minden code smellt csak egyszer említenék.
 
 # Main.java
 
@@ -22,5 +22,15 @@ Javítás: private static HashMap<String, Object> hash = new HashMap<String,Obje
 
 Code Smell: Hiánzyik az if statement után a zárójel, így nem mindenki számára egyértelmű, hogy pontosan mire vonatkozik az if
 Javítás: {} használata
+
+# ControlPanel.java
+
+Code Smell: Nem használt tagváltozók benne maradtak a kódban.
+Javítás: Kitörölni ezeket
+
+Code Smell: Nem mentjük el változóba egy objektumon meghívottt függvény értékét.
+Javítás: Mentsük el új változóba.
+
+
 
 
