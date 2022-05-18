@@ -46,6 +46,11 @@ Javítás: Nevezzük át a függvényt.
 - Code Smell: Kódsorok vannak kikommentezve
 Javítás: Töröljük ki ezeket a sorokat.
 
+# Transport.java
+
+- Code Smell: Egyik függvény neve ugyanaz, mint az osztály neve
+Javítás: Módosítsuk a függvény nevét
+
 
 
 
