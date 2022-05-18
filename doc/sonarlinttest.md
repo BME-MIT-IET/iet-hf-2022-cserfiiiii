@@ -2,8 +2,17 @@
 
 Az alkalmazás osztályait vizsgáltam meg SonarLint segítségével, a Code Smelleket detektáltam és a nagyobb hibákat a SonarLint javaslatai alapján javítottam.
 
-Minor code smellek:
-A kód egészében nem a megfelelő java által előírt szabványos szintaktikát használjuk, miszerint decreaseLayer() lenne egy függvény neve, nem DecreaseLayer()
+### Minor code smellek:
+
+- A kód egészében nem a megfelelő java által előírt szabványos szintaktikát használjuk, miszerint pl. decreaseLayer() lenne egy függvény neve, nem DecreaseLayer()
+- A package neveknél se a megfelelő szabványos szintaktikát használjuk
+- List helyett ArrayListet használunk, ami nem Java.Collection packageből származik
+- Változók deklarálása külön sorba legyen
+- Booleanek helyébe ifeknél nem kell az == true
+- Absztrakt osztály, helyett lehetne Interface is az egyik osztályunk
+
+
+### Critical code smellek:
 
 A dokumentálás további részében a kritikus code smelleket említem és ezekre javaslok javításokat. Végig néztem az összes osztályt, de nem minden code smellt csak egyszer említenék.
 
