@@ -5,6 +5,9 @@ Használhatósági tesztek:
 - effektív navigáció
 - jó error handleing
 
+![image](https://user-images.githubusercontent.com/79679983/169163365-ee25a2be-98cf-4f05-a8e3-79bacc321b41.png)
+
+
 
 Easy to understand: könnyű megérteni a kódot, érthető a UI felület bármely felhasználó számára, 
 minden sajátossága a programnak látható a végfelhasználók számára
