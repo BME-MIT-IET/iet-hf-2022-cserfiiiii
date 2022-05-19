@@ -1,10 +1,16 @@
+Usability
+
 Easy to understand: könnyű megérteni a kódot, érthető a UI felület bármely felhasználó számára, minden sajátossága a programnak látható a végfelhasználók számára.
 
 Az alábbi képen az alkalmazás kezdőképernyője látható:
 ![image](https://user-images.githubusercontent.com/79679983/169164390-7c16e7a6-9b47-4d5f-ad83-ad9c3793b7d0.png)
 
 A kezdőképernyő háttere design szempontájól megfelelően nézi ki, viszont a gombokon látszik, hogy egyszerű, előre beépített Java Swing-es gombok, nincsenek átalakítva a szép GUI érdekében. Az, hogy a két gomb mire való, könnyen megérthető: az első gommbal a játékot lehet elindítani, a másodikkal pedig ki lehet lépni az alkalmazásból.
-A gombokhoz jól vannak bekötve a funkciók, mivel az Exit gomb hatására valóban leáll az alkalmazás, a Start gomb hatására pedig egy új képernyő jelenik meg.
+A gombokhoz jól vannak bekötve a funkciók, mivel az Exit gomb hatására valóban leáll az alkalmazás, a Start gomb hatására pedig egy új képernyő jelenik meg:
+
+![howmanysettlers](https://user-images.githubusercontent.com/79846091/169256757-731e9d73-8d25-46b9-8ff5-beed592b26f4.png)
+
+Ez a képernyő használhatóságát tekintve letisztult és a felhasználó számára egyértelmű a kérdés alapján, hogy mit kell megadni. Viszont nincs megadva a bemenetre semmilyen feltétel. A felhasználó próbálkozhat az input betűkkel való megadásával vagy érvénytelen számot is bevihet. Az érvénytelen inputoknak csak egy részét kezeli helyesen a játék. Negatív input megadásakor például elindul a játék 0 telepessel, azaz eleve megnyerhetetlen már az induláskor is, ami használhatósági szempontból nem megfelelő. A nem megfelelő inputból eredendő hibákat könnyen javítani lehetne, ha a felhazsnáló például egy legördülő listából választhatná ki, mennyi telepessel szeretne játszani (ez azért is jobb megoldás, mert elkerülhetők vele a túl nagy input megadásából származó problémák) vagy legalább kiírhatna a játék pontos instruciókat, hogy milyen bemenetet vár az input (pl. "Write a number between 1 and 10").
 
 ![image](https://user-images.githubusercontent.com/79679983/169165576-dd9f37fb-d16b-4f56-ba1f-73f1f1b5b5fd.png)
 Az játéktér a fenti módon néz ki. Az oldalpanelen található gombok a játékosok lehetséges lépeseit jelölik, viszont nem egyértelmű, hogy melyik gomb mit csinál és hogyan működik. Illetve a Restore és Place Gate gombok mellett találhatóak legördülő listák, ezeknek viszont nincs értékük, ami összezavaró tud lenni a felhasználó számára. Ha nem ismeri a játékot, akkor nem egyértelmű, mi a célja vagy mi pontosan mi történik, csak vakon kattintgatja a gombokat. A gombok alatt található háromsoros kiírás sem egyértelmű, hogy mit jelent, illetve a szavak nehezen olvashatóak a beállított háttérkép miatt.
@@ -27,6 +33,8 @@ Amint a lenti képen is látszik, létezik olyan játéktér felépítés, hogy 
 
 Az egyes gomboknak, például Create Robot, Create Gate, Place Gate csak bizonyos feltételek mellett van érdemi funkciójuk, ennek ellenére a felhasználó megnyomhatja őket olyan esetben is ha a feltételek nem teljesülnek.
 
+Érdemes lenne a programot javítani úgy, hogy a legördülő sávokba ne lehessen írni. Emellett le kéne kezelni azt is, hogy a gombok csak akkor legyenek kattinthatók, ha teljesülnek azok a feltételek, amik a gombhoz tartozó művelet végrehajtásához kellenek.
+
 Faster to Access: a szoftver elérése gyorsan kell történjen, azaz az alkalmazás válaszideje rövid kell hogy legyen, mivel ha a válaszidő nagy, akkor a felhasználók könnyen idegesek lehetnek, érdeklődésüket veszthetik az alkalmazás iárnt. Ezért biztosítani kell, hogy az alkalmazásunk képes legyen nagyjából 3 és 6 perc közötti válaszidőt produkálni.
 Az alkalmazás a UI elemeket alavetően gyorsan jeleníti meg, az egyes interakciókra történő változtatások is gyorsan megjelennek a képernyőn, viszont ha például egy nagyobb számot írunk be a játék kezdetekor, akkor egy időre befagy az alkalmazás, egy fehér képernyő jelenik meg, amire csak hosszú várakozás után tötödik be a játéktér. Illetve, ha felhasználó gyorsan kattingat a gombok között, nem mindig frissülnek gyorsan a UI elemek.
 
@@ -45,7 +53,9 @@ Stress testing: ez a tesztelési módszer arra való, hogy megtaláljuk a rendsz
 
 Load testing: ez a tesztelési módszer arra való, hogy a rendszer teljesítményét ellenőrizze az elvárt adatmennyiséggel. Az a célunk vele, hogy ellenőrizzük a válaszidőt az adott adatmennyiségre. A rendszer megbízhatóságát ellenőrzi.
 
-10000 settler megadása is lehetséges a játék elindítása után, viszont nem csak összefolynak a grafikus felületen a telepesek, hanem magát a programot is túlterheli és rendkívül lelassítja az óriási input. A játékprogram egyértelműen kevesebb settlerre van tervezve, viszont a settlerek számának megadásakor nincs felső limit beállítva. Így a felhasználó könnyen belefuthat abba, hogy a nagy input miatt játék közben többször lefagyjon a program.
+10000 settler megadása is lehetséges a játék elindítása után, viszont nem csak összefolynak a grafikus felületen a telepesek (lásd az alábbi képen), hanem magát a programot is túlterheli és rendkívül lelassítja az óriási input. A játékprogram egyértelműen kevesebb settlerre van tervezve, viszont a settlerek számának megadásakor nincs felső limit beállítva. Így a felhasználó könnyen belefuthat abba, hogy a nagy input miatt játék közben többször lefagyjon a program.
+
+![input10000settler](https://user-images.githubusercontent.com/79846091/169251275-ce21e155-1c9a-4296-9f3f-54d3777f300f.png)
 
 Manuálisan végzett tesztelés során 10000 telepest megadva, majd utána gyorsan kattintgatva az egyik választható gombot, a felületen csak a kattintások befejezése után jelenik meg az aktuális állapot, közben több állapot nem jelenik meg.Ez a probléma már olyan kicsi, mint 10 klikkelés hatására is megjelent, például settler1-től elindulva 10-szer gyorsan a "Move" gombra kattintva nem jelenik meg, hogy épp settler2, settler3 stb. lépését hajtottuk végre, csak miután abbahagyjuk a kattintgatást, akkor írja ki, hogy settler11. Ez megtévesztő lehet a felhasználó számára, hiszen ha akár csak egy settlert nem jelenít meg a program, hiheti azt, hogy a meg nem jelenő telepes nem is létezik már.
 
