@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø—ýìúÿÿÿÿ
+S
+java:S1610"8Convert the abstract class "Material" into an interface.(‚éÌèùÿÿÿÿ
+š
+java:S1845"Rename method "ToString" to prevent any misunderstanding/clash with method "toString" defined in superclass "java.lang.Object".(÷­äŽúÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­µµ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÜ†¿
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø†²¥ÿÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷­äŽúÿÿÿÿ
