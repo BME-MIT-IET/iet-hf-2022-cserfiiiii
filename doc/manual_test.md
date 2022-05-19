@@ -18,7 +18,7 @@ A kezdőképernyőn a Start gombra kattintva a játékosok számát kell megadni
 
 A második manuális teszt által azt vizsgálom meg, hogy a szövegek mennyire jól olvashatóak, illetve mennyire kontrasztosak a háttérrel. 
 - Főképernyő: A szövegeket megfelelően kontrasztosnak találom, a gombokon lévő szövegek is tisztán olvashatóak. A Főképernyő alján található "Made by Cserfescsapat", illettve a tetején található "Menu" szövegek pixelesek bizonyos mértékben, azokon lehetne javítani. Ezek a szövegek a háttérként szolgáló png-be vannak beégetve, ehelyett a megoldás helyett nem a kép részként, hanem a programban text-ként kellene megjeleníteni.
-		- ![image](https://user-images.githubusercontent.com/79630831/169170515-290b213a-63e9-4857-ab2d-f20029a43b87.png)
+- ![image](https://user-images.githubusercontent.com/79630831/169170515-290b213a-63e9-4857-ab2d-f20029a43b87.png)
 - Játékosok számának megadása képernyő: Megfelelő.
 - Játék: 
 	- A Control panel alján lévő szövegeket nem találom eléggé kontrasztosnak a háttérrel. El lehet olvasni, de igényesebbé lehetne tenni ha félkövérré tennénk, vagy a hátteret változtatnánk meg. A képerenyőn megjelenő többi szöveget kellően kontrasztosnak ítélem.
@@ -72,4 +72,12 @@ A hatodik tesztben a funkciók működésének megfelelő megjelenését elemzem
 - A robot építése funkció is helyesen működik, akár van elég nyersanyaga a telepesnek, akár nincs.
 - A kapu építése funkció is helyesen működik, akár van elég nyersanyaga a telepesnek, akár nincs.
 - A kapu elhelyezése funkció is helyesen működik, akár van kapuja a telepesnek, akár nincs.
+
+
+## 7. Teszt: Flexibility
+
+A hetedik tesztben a programot különböző képernyőmeretekkel tesztelem.
+- A játék ablakának a méretét nem lehet állítani.
+- A csapattagoknál más arányokban jelenik meg a játék, a Control panel néha többet takar ki, máskor kevesebbet.
+
 
