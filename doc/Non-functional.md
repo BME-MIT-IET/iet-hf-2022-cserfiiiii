@@ -23,11 +23,12 @@ Ha a játék veszteséggel ért véget, az alábbi képernyő jelenik meg, amin 
 Easy to Access: egy felhasználóbarát alklamzás könnyen elérhető kell legyen minden felhasználó számára, a külalak megnyerő és szemrevaló kell legyen, hogy a felhasználók érdeklődését felkeltse, mivel ha a GUI nem szép, akkor a felhasználó kevesebb valószínűséggel fogja hosszú távon használni az alkalmazást.
 
 Amint a lenti képen is látszik, létezik olyan játéktér felépítés, hogy a felhasználó nem tudja kiválasztani, hogy hova mozogjon, ami ellehetetleníti a játék megnyerését.
+
 ![image](https://user-images.githubusercontent.com/79679983/169171619-b072c6ba-7afe-4105-8466-da60656e4a4e.png)
 
 Az egyes gomboknak, például Create Robot, Create Gate, Place Gate csak bizonyos feltételek mellett van érdemi funkciójuk, ennek ellenére a felhasználó megnyomhatja őket olyan esetben is ha a feltételek nem teljesülnek.
 
-Faster to Access: a szoftver elérése gyorsan kell történjen, azaz az alkalmazás válaszideje rövid kell hogy legyen, mivel ha a válaszidő nagy, akkor a felhasználók könnyen idegesek lehetnek, érdeklődésüket veszthetik az alkalmazás iárnt. Ezért biztosítani kell, hogy az alkalmazásunk képes legyen nagyjából 3 és 6 perc közötti válaszidőt produkálni.
+Faster to Access: a szoftver elérése gyorsan kell történjen, azaz az alkalmazás válaszideje rövid kell hogy legyen, mivel ha a válaszidő nagy, akkor a felhasználók könnyen idegesek lehetnek, érdeklődésüket veszthetik az alkalmazás iárnt. Ezért biztosítani kell, hogy az alkalmazásunk képes legyen nagyjából 3 és 6 másodperc közötti válaszidőt produkálni.
 Az alkalmazás a UI elemeket alavetően gyorsan jeleníti meg, az egyes interakciókra történő változtatások is gyorsan megjelennek a képernyőn, viszont ha például egy nagyobb számot írunk be a játék kezdetekor, akkor egy időre befagy az alkalmazás, egy fehér képernyő jelenik meg, amire csak hosszú várakozás után tötödik be a játéktér. Illetve, ha felhasználó gyorsan kattingat a gombok között, nem mindig frissülnek gyorsan a UI elemek.
 
 Effective Navigation: a helyesen működő és effektív navigáció az egyik legfontosabb eleme egy szoftvernek. Ez megnyilvánulhat például a gombok helyes műkődésében, jó belső összekötés alkalmazásában, az informatív menü elemek vagy a jól működő kereső funkciók használatában.
