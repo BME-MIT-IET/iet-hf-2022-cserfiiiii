@@ -10,11 +10,12 @@ import java.util.Map;
 import java.util.Random;
 
 public class Main  implements ActionListener {
-	private static HashMap<String, Object> hash = new HashMap();
+	private static HashMap<String, Object> hash = new HashMap<String,Object>();
 	private static View view;
 	private static Main INSTANCE;
 	private Settler activeSettler;
 	private static int gatecnt =0;
+	private static Random rnd = new Random();
 
 	public static Main getInstance() {
 		if(INSTANCE == null) {
@@ -95,7 +96,6 @@ public class Main  implements ActionListener {
 		gatecnt=0;
 		hash.clear();
 		view.startGame();
-		Random rnd = new Random();
 		int r = rnd.nextInt(10)+5;
 		int acnt=r;							//aszteroidak szama
 		for(int j=0; j<r; j++){ 			//random szamu aszteroida letrehozasa (min 5-ot, max 15-ot hoz létre)
@@ -151,7 +151,7 @@ public class Main  implements ActionListener {
 		c.SetAsteroid(sp.GetAsteroid());
 	}
 	public static void AddAsteroid(Asteroid a, GAsteroid ga, int i){ //uj aszteroida jon letre
-		Random rnd = new Random();
+
 		//koordinatak beallitasa: az aszteroidak nem kerulnek kozel egymashoz
 		int gax=rnd.nextInt(18)*50+50;
 		int gay=rnd.nextInt(10)*50+100;
@@ -178,7 +178,7 @@ public class Main  implements ActionListener {
 		return hash;
 	}	//egy objektum megkeresese nev alapjan
 
-	public void AddGate(Gate g){		//uj kapu hozzadasa a hashez
+	public static void AddGate(Gate g){		//uj kapu hozzadasa a hashez
 		gatecnt++;
 		hash.put("gate"+gatecnt, g);
 	}
