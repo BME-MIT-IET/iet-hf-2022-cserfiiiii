@@ -1,3 +1,7 @@
+A nem funkciónális tesztek két fajtáját alkalmaztuk a projekt tesztelése során: usability és stress testing.
+A hasznosság teszteléséhez black-box alapú tesztelést alkalmaztunk, tehát feltételeztük, hogy a felhasználó nem ismeri a szoftver sajátosságait, specifikációját, és először találkozva az alkalmazással, mennyire tudhat eligazodni benne.
+
+A usability mérésére különböző karakterisztikákat lehet megfogalmazni, ezeket a pontokat az alábbiakban vannak kifejtve, és a tesztelt projekten megvizsgálva.
 Easy to understand: könnyű megérteni a kódot, érthető a UI felület bármely felhasználó számára, minden sajátossága a programnak látható a végfelhasználók számára.
 
 Az alábbi képen az alkalmazás kezdőképernyője látható:
