@@ -72,7 +72,8 @@ Miután átvizsgáltam manuálisan a kódot, összekötöttem a GitHubot a Sonar
 A képen látható, hogy 13 bug, 280 code smell és 19 security hotspot van a kódban. 
 SonarCloud segítségével is böngésztem a code smelleket, ami másokat is jelzett, a Sonarlinten kívül. Itt 4 csoportba osztotta őket, Blocker, Critical, Major és Minor hibákat jelzett.
 
+![](sonarissues.png)
 
-
-
+Azzal, hogy a saját régi kódunkat vizsgáltuk meg, sokat tanultam, hogy a jövőben, milyen alap dolgokat kéne máshogy csináéni, amivel lényegesebben szebb lesz a kód.
+Általában ugyanaz a pár code smell fordult elő minden fájlban.
 
