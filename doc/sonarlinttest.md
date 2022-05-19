@@ -65,5 +65,14 @@ Javítás: Módosítsuk a függvény nevét
 - Code Smell: Üres függvényhez, nincs odaírva semmi komment, hogy miért üres
 Javítás: A függvény törzsébe oda lehetne írni, hogy miért nem csinál semmit a függvény
 
+Miután átvizsgáltam manuálisan a kódot, összekötöttem a GitHubot a SonarClouddal. Ehhez létre kellett hozni a projekthez pom.xml-t és maven.yaml fájlt.
+
+![](sonarcloud.png)
+
+A képen látható, hogy 13 bug, 280 code smell és 19 security hotspot van a kódban. 
+SonarCloud segítségével is böngésztem a code smelleket, ami másokat is jelzett, a Sonarlinten kívül. Itt 4 csoportba osztotta őket, Blocker, Critical, Major és Minor hibákat jelzett.
+
+
+
 
 
