@@ -23,6 +23,9 @@ Az Asteroid és Settler osztályt egészítettem ki Unit tesztekkel. Ezek a kül
 A tesztek, a SettlerCreateRobot kivételével lefutottak jól. Itt sem a függvény működése volt rossz, hanem NullPointerExceptiont dobott. Tehát ez a függvény olyan metódust is elér, ami már a megjelenítéshez kapcsolódik, így sokkal nehezebb a kódot tesztelni. Célszerű lenne az ezek közötti függőséget csökkenteni.
 ![image](https://user-images.githubusercontent.com/71429144/169164491-5448ee17-b0ae-4e40-a0ff-7c3aa7de3ea9.png)
 
+# Kód lefedettség:
+A kód lefedettségét az IntelliJ beépített CodeCoverage elemzőjével ellenőrztem. Itt leolvasható hogy a különböző osztályoknak mennyi függvény, sora van lefedve a tesztek álltal.
+
 TestClassAsteroid:
 Az Asteroid osztály függvényeit teszteli, 
 ![image](https://user-images.githubusercontent.com/71429144/169163996-a7df3db3-8a69-48f8-9440-256c234e95b4.png)
