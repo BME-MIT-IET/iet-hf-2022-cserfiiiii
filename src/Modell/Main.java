@@ -15,6 +15,7 @@ public class Main  implements ActionListener {
 	private static Main INSTANCE;
 	private static Random rnd = new Random();
 	private Settler activeSettler;
+	private static Random rnd = new Random();
 	private static int gatecnt =0;
 
 	public static Main getInstance() {
@@ -151,6 +152,10 @@ public class Main  implements ActionListener {
 		c.SetAsteroid(sp.GetAsteroid());
 	}
 	public static void AddAsteroid(Asteroid a, GAsteroid ga, int i){ //uj aszteroida jon letre
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 		//koordinatak beallitasa: az aszteroidak nem kerulnek kozel egymashoz
 		int gax=rnd.nextInt(18)*50+50;
 		int gay=rnd.nextInt(10)*50+100;
