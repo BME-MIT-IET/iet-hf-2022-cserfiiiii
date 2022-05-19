@@ -74,6 +74,6 @@ SonarCloud segítségével is böngésztem a code smelleket, ami másokat is jel
 
 ![](sonarissues.PNG)
 
-Azzal, hogy a saját régi kódunkat vizsgáltuk meg, sokat tanultam, hogy a jövőben, milyen alap dolgokat kéne máshogy csináéni, amivel lényegesebben szebb lesz a kód.
+Azzal, hogy a saját régi kódunkat vizsgáltuk meg, sokat tanultam, hogy a jövőben, milyen alap dolgokat kéne máshogy csinálni, amivel lényegesebben szebb lesz a kód.
 Általában ugyanaz a pár code smell fordult elő minden fájlban.
 
